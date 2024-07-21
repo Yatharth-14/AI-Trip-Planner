@@ -2,13 +2,16 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
+import Hero from './components/custom/Hero'
+// import { Button } from './components/ui/button'
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-      <h2>Hi!</h2>
+      {/* Hero Section */}
+      <Hero/>
     </>
   )
 }
